@@ -20,7 +20,7 @@ const Product = (props) => {
             <h1>Product Name: {name}</h1>
             <h2>Price: {price}</h2>
             <h3>Quantity: {quantity}</h3>
-            <button onClick={handleAddQuantity}>Add Quantity</button>
+            <button className='add-quantity' onClick={handleAddQuantity}>Add Quantity</button>
             <button onClick={handleDeleteQuantity}>Delete Quantity</button>
         </div>
     );
